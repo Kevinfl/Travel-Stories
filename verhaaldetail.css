@@ -106,6 +106,7 @@ a:hover {
     text-align: center;
     display: none;
     transition: 1s ease;
+    border-top: 1px solid lightgray;
 }
 
 .item:hover {
@@ -128,6 +129,7 @@ a:hover {
     background: #3cd46c;
     border-radius: 50em;
     margin: 0 1.6em  0;
+    border-top: none;
 
     }
 }
@@ -362,6 +364,7 @@ ul a.current{
     width: auto;
     order: 2;
     margin: 0 1em ;
+    border-top: none;
     }
 
  .item.button.login {
