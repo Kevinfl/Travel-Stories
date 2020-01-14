@@ -408,7 +408,7 @@ ul a.current{
   width: 100%;
   padding: 3em 3em;
   display: table;
-  background-image: url('../img/colorbg.jpg');
+  background-image: url('colorbg.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -537,19 +537,19 @@ TRANSITIONS: allows you to change property values smoothly, over a given duratio
 
 /* MY COOL IMAGES */
 .Gebakken-lucht-img {
-  background-image: url('../img/cloud2.jpg');
+  background-image: url('cloud2.jpg');
 }
 
 .water-vangen-img{
-      background-image: url('../img/water.jpg');
+      background-image: url('water.jpg');
 }
 
 .vliegen-dromen-img{
-      background-image: url('../img/fly.jpg');
+      background-image: url('fly.jpg');
 }
 
 .bergen-img{
-      background-image: url('../img/stare.jpg');
+      background-image: url('stare.jpg');
 }
 
 
@@ -1043,7 +1043,7 @@ font-family: 'Lobster', cursive;
 .titel-bg {
   width: 100%;
   display: table;
-  background-image: url('../img/gebakken2.jpg');
+  background-image: url('gebakken2.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
