@@ -80,9 +80,110 @@ a:hover {
     text-decoration: none;
 }
 
+/*---------------------Media querie Mobile Samsung S10 Menu 400px----------------------------*/
+@media all and (min-width: 400px){
+
+.nav-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*------------------------------------Navigation bar Toggle------------------------------------*/
+.toggle {
+    order: 2;
+    cursor:pointer;
+}
+
+.item {
+    order: 4;
+    width: 100%;
+    text-align: center;
+    display: none;
+    transition: 1s ease;
+    border-top: 1px solid lightgray;
+}
 
 
-/*------------------------------------Media querie Mobile-1 Menu 500px------------------------------------*/
+.item.button.login {
+    width: 100%;
+    order: 3;
+    text-align: center;
+
+}
+
+.item.button.register {
+   width: 100%;
+   order: 3;
+   text-align: center;
+    background: #3cd46c;
+    border-radius: 50em;
+    margin: 0 1.6em  0;
+    border-top: none;
+
+    }
+
+.item.button.register a{
+   color: white;
+    }
+
+.button:hover {
+    transition: all .20s;
+    }
+
+.item.button.login a:active{
+        color: #E72458;
+    }
+
+.item.button.register a:active{
+        color: #3cd46c;
+    }
+
+.item.button.register:active{
+        background: #E72458;
+    }
+
+.item a:active{
+        color: #E72458;
+    }
+
+ul a.current{
+     color: #2800a0;
+}
+
+button {
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 600;
+    width: 80;
+    order: 1;
+    display: block;
+    border: 0.1em solid #E72458;
+    background: #E72458;
+    border-radius: 50em;
+    margin: 0 1em 0 0;
+    font-size: 1em;
+    padding: 0.5em;
+    transition: border, color .9s ease-out;
+    }
+
+button:active{
+        background: #2800a0;
+        border-color: #2800a0;
+    }
+
+/* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
+/* Bron: https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend */
+.block .item {
+    display: block;
+/* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
+}
+/*------------------------------------End Media querie Samsung S10 Menu 400px___________________________________*/
+}
+
+
+/*------------------------------------Media querie Mobile-2 Menu 500px------------------------------------*/
 @media all and (min-width: 500px){
 
 .nav-main {
@@ -108,12 +209,6 @@ a:hover {
     border-top: 1px solid lightgray;
 }
 
-.item:hover {
-    background: lightgray;
-    transition: 1s ease;
-    cursor: pointer;
-}
-
 .item.button.login {
     width: 100%;
     order: 3;
@@ -137,20 +232,8 @@ a:hover {
    color: white;
     }
 
-.button:hover {
-    transition: all .20s;
-    }
-
-.item.button.login a:hover{
-        color: #2800a0;
-    }
-
 .item.button.login a:active{
         color: #E72458;
-    }
-
-.item.button.register:hover{
-        background: #2800a0;
     }
 
 .item.button.register a:active{
@@ -159,10 +242,6 @@ a:hover {
 
 .item.button.register:active{
         background: #E72458;
-    }
-
-.item a:hover{
-    color: #2800a0;
     }
 
 .item a:active{
@@ -206,16 +285,6 @@ button {
     transition: border, color .9s ease-out;
     }
 
-
-button:hover {
-    transition: all .20s;
-    }
-
-button:hover{
-        background:   #3cd46c;
-        border-color: #3cd46c;
-    }
-
 button:active{
         background: #2800a0;
         border-color: #2800a0;
@@ -229,7 +298,7 @@ button:active{
 }
 
 
-/*------------------------------------End Media querie Mobile-1 Menu___________________________________*/
+/*------------------------------------End Media querie Mobile-2 Menu___________________________________*/
 
 
 
