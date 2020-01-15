@@ -490,16 +490,16 @@ Bron: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
   overflow: hidden;
   position: relative;
   box-shadow: 7px 10px 17px 1px rgba(0,0,0,0.50);
-
+ -webkit-transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
+  transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
+/* Bron Cool bounce effect: https://codepen.io/jakeblakeley/pen/yNRmKO */
+    
 /*The box-sizing property defines how the width and height of an element are calculated: should they include padding and borders, or not.
   Sets this property to its default value.                      https://www.w3schools.com/cssref/css3_pr_box-sizing.asp*/
 
 /*OVERFLOW property specifies what should happen if content overflows an element's box.
 This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
 Note: The overflow property only works for block elements with a specified height.  https://www.w3schools.com/cssref/pr_pos_overflow.asp */
-
--webkit-transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
-  transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
 
 /*TRANSITIONS: allows you to change property values smoothly, over a given duration.
   Mouse over the element below to see a CSS transition effect:  https://www.w3schools.com/css/css3_transitions.asp*/
