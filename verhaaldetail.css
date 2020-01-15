@@ -985,12 +985,33 @@ font-family: 'Lobster', cursive;
 }
 /*--------------------------------------End: 4th Section------------------------------------*/
 
+/*---------------------Media querie Mobile Samsung S10 Menu 400px----------------------------*/
+@media all and (min-width: 400px) {
+
+.learning-experience {
+  padding: 3em 0.5em 3em 0.5em;
+  display: table;
+}
+
+.learning-experience > header > h1 {
+  width: 80%;
+  font-size: 2em;
+  padding: 65px 3px 0px 9px;
+}
+
+.grid-s4-item-wrapper {
+  width: 100%;
+}
+
+    }
+/* ---------------------------------------------------------------------------------- */
+
 
 /*-----------------------------MEDIA QUERY Boxes Mobile-1 500px-------------------------------*/
 @media all and (min-width: 500px) {
 
 .section4-short-stories {
-  display: table;
+  display: flex;
   width: 100%;
   background-position: center;
   background-attachment: local;
