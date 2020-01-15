@@ -498,11 +498,11 @@ Bron: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
 Note: The overflow property only works for block elements with a specified height.  https://www.w3schools.com/cssref/pr_pos_overflow.asp */
 
-/*COOL Bounce effect -webkit-transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
-  transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);*
+-webkit-transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
+  transition: padding 0.15s cubic-bezier(0.4,0,0.2,1), margin 0.15s cubic-bezier(0.4,0,0.2,1), box-shadow 0.15s cubic-bezier(0.4,0,0.2,1);
 
-TRANSITIONS: allows you to change property values smoothly, over a given duration.
-  Mouse over the element below to see a CSS transition effect:                                  https://www.w3schools.com/css/css3_transitions.asp*/
+/*TRANSITIONS: allows you to change property values smoothly, over a given duration.
+  Mouse over the element below to see a CSS transition effect:  https://www.w3schools.com/css/css3_transitions.asp*/
 }
 
 .grid-item-container {
