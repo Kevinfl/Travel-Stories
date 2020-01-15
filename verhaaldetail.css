@@ -920,7 +920,7 @@ font-family: 'Lobster', cursive;
 .learning-experience {
   padding: 3em 6em 3em 6em;
   display: table;
-  background-image: url('img/pic.jpg');
+  background-image: url('pic.jpg');
   background-position: center;
   background-attachment: local;
   background-size: cover;
@@ -1022,7 +1022,7 @@ font-family: 'Lobster', cursive;
 .learning-experience {
   padding: 1em 2em 3em 2em;
   display: table;
-  background-image: url('../img/pic.jpg');
+  background-image: url('pic.jpg');
   background-position: center;
   background-attachment: local;
   background-size: cover;
@@ -1083,13 +1083,7 @@ font-family: 'Lobster', cursive;
 
 .learning-experience {
   padding: 1em 20em 3em 4em;
-  background-image: url('img/pic.jpg');
-  background-position: center;
-  background-attachment: local;
-  background-size: cover;
-  height: 90vh;
 }
-
 }
 /*----------------------------------------------------------------------------------------------------*/
 
