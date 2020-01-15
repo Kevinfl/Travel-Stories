@@ -1478,11 +1478,9 @@ Voorbeeld:
 } */
 
 footer{
-    display: table;
     width: 100%;
     background-color: #2800a0;
-    padding: 6em 2em 3em 2em;
-    display: inline-block;
+    padding: 2em 2em 3em 2em;
 
 }
 
@@ -1654,19 +1652,31 @@ label{
 /*----------------------MEDIA QUERY Tablet-1 footer text boxes 500px----------------------*/
 @media all and (min-width:  500px) {
 
-    #registreren-btn{
+#registreren-btn{
     width: 99.8%;
+}
+footer{
+    padding: 6em 2em 3em 2em;	
 }
     
 }
-/* ----------------------------------------------------------------------------------- */
+/*-----------------------------------------------------------------------------------*/
 
+/*--------------------------------MEDIA QUERY 740px-------------------------------*/
+@media all and (min-width:  740px) {
+
+footer{
+    padding: 3em 2em 3em 2em;	
+}
+}
+
+/* ---------------------------------------------------------------------------- */
 
 /*----------------------MEDIA QUERY Tablet-2 footer text boxes 790px----------------------*/
 @media all and (min-width:  790px) {
 
 footer{
-    padding: 6em 6em 3em 6em;
+    padding: 3em 6em 3em 6em;
 }
     #registreren-btn{
     width: 99.8%;
@@ -1681,7 +1691,7 @@ footer{
 @media all and (min-width:  945px) {
 
 footer{
-    padding: 6em 12em 3em 12em;
+    padding: 3em 12em 3em 12em;
 }
     #registreren-btn{
     width: 99.8%;
@@ -1696,7 +1706,7 @@ footer{
 @media all and (min-width:  1425px) {
 
 footer{
-    padding: 6em 20em 3em 20em;
+    padding: 3em 20em 3em 20em;
 }
 
 .aanhef > .text-veld{
