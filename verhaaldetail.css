@@ -486,8 +486,7 @@ ul a.current{
 /*-----------------1ste SECTION: Cards with recently added travel stories-----------------------*/
 .section1 {
   width: 100%;
-  padding: 3em 3em;
-  display: table;
+  padding: 3em 1em 3em 1em;
   background-image: url('colorbg.jpg');
   background-position: center;
   background-attachment: fixed;
@@ -537,7 +536,7 @@ This is a shorthand for the flex-direction and flex-wrap properties, which toget
   height: 28em;
   flex-basis: 20%;
   flex: auto;
-  width:16.188em;
+  width: 20em;
   position: relative;
   padding: 0.5em;
   box-sizing: border-box;
@@ -689,13 +688,9 @@ Bron: https://www.w3schools.com/css/css_positioning.asp */
 /*------------------------------------2nd Section: Cards with Featured stories------------------------------------*/
 .section2 {
   width: 100%;
-  padding-left: 8em;
-    padding-right: 8em;
-    padding-top: 1.3em;
-    padding-bottom: 1.5em;
-    display: table;
-    margin: 0;
-    height: 34.5vh;
+  display: table;
+  margin: 0;
+  height: 34.5vh;
   }
 
 
