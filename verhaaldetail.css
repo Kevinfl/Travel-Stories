@@ -26,7 +26,7 @@ body{
 }
 /*-------------A11y ------------*/
 
-
+/*------------- Site Navigation------------*/
 nav {
     position: fixed;
     width: 100%;
@@ -55,8 +55,7 @@ a:hover {
   font-size: 1em;
   padding: 10px 5px;
   white-space: nowrap;
-/*NO WRAP =
-    Collapses white space, but suppresses line breaks (text wrapping) within the source. */
+/*NO WRAP = Collapses white space, but suppresses line breaks (text wrapping) within the source. */
 }
 
  .logo a,
@@ -83,7 +82,7 @@ a:hover {
 
 
 
-/* Media queries Mobile-1 Menu------------------------------------*/
+/*------------------------------------Media querie Mobile-1 Menu 500px------------------------------------*/
 @media all and (min-width: 500px){
 
 .nav-main {
@@ -94,7 +93,7 @@ a:hover {
 }
 
 
-/* Navigation bar Toggle */
+/*------------------------------------Navigation bar Toggle------------------------------------*/
 .toggle {
     order: 2;
     cursor:pointer;
@@ -190,7 +189,7 @@ button {
     transition: border, color .9s ease-out;
     }
 
-/* Fake button ------------ */
+/*------------------------------------Fake button------------------------------------*/
 .mb{
     font-family: 'Raleway';
     color: white;
@@ -222,17 +221,19 @@ button:active{
         border-color: #2800a0;
     }
 
-/* JS: Active class voor Javascript, openklappen/verschijnen bij clikken */
+/* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
 .block .item {
     display: block;
-/* JS: Active class voor Javascript, openklappen/verschijnen bij clikken */
+/* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
 }
-/*--End Media queries Mobile-1 Menu___________________________________*/
+
+
+/*------------------------------------End Media querie Mobile-1 Menu___________________________________*/
 
 
 
-/* Media queries Tablet-1 Menu------------------------------------*/
-@media all and (min-width:  643px){
+/*------------------------------------Media querie Tablet-1 Menu 643px------------------------------------*/
+@media all and (min-width: 643px){
 
 .nav-main{
     justify-content: center;
@@ -240,7 +241,7 @@ button:active{
 
 .logo {
      flex: 1;
-/*maakt het mogelijk om te groeien, mee scalen*/
+/* maakt het mogelijk om mee te scalen */
     }
 
 .item.button.login {
@@ -345,10 +346,10 @@ ul a.current{
     }
 
     }
-/*--End Media queries Tablet-1 Menu___________________________________*/
+/*------------------------------------End Media querie Tablet-1 Menu___________________________________*/
 
 
-/* Media queries Desktop-1 Menu------------------------------------*/
+/*------------------------------------Media querie Desktop-1 Menu 1119px------------------------------------*/
 @media all and (min-width:  1119px){
 
 .logo {
@@ -397,13 +398,13 @@ ul a.current{
 
 }
 
-/*--End Media queries Desktop-1 Menu___________________________________*/
+/*------------------------------------End Media querie Desktop-1 Menu------------------------------------*/
 
 
-/*--Home/Overzichts/index pagina ___________________________________*/
+/*------------------------------------Home/Overzicht/index pagina------------------------------------*/
 
 
-/* 1ste SECTION ________________________________________________________*/
+/*-----------------1ste SECTION: Cards with recently added travel stories-----------------------*/
 .section1 {
   width: 100%;
   padding: 3em 3em;
@@ -412,7 +413,7 @@ ul a.current{
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-/* BACKGROUND TIPS: https://www.webfx.com/blog/web-design/responsive-background-image/ */
+/* BRON BACKGROUND TIPS: https://www.webfx.com/blog/web-design/responsive-background-image/ */
 }
 
 header > h1 {
@@ -434,8 +435,8 @@ header > h1 {
 }
 
 
-/*DISPLAY FLEX: This defines a FLEX CONTAINER; inline or block depending on the given value. It enables a flex context for all its direct children.
-We first create a flex layout context                                                       https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+/* DISPLAY FLEX: This defines a FLEX CONTAINER; inline or block depending on the given value. It enables a flex context for all its direct children.
+We first create a flex layout context. Bron: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 
 /* FLEX-FLOW: Applies to parent flex container element
@@ -445,20 +446,13 @@ This is a shorthand for the flex-direction and flex-wrap properties, which toget
    * Remember this is the same as:
    * flex-direction: row;
    * flex-wrap: wrap;
-   * nowrap (default): all flex items will be on one line               https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+   * nowrap (default): all flex items will be on one line. Bron: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
 .divwrap > .grid-row {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
-
-/*section.story-image > img{
-    width: 100%;
-    position: absolute;
-}
-*/
-
 
 .grid-item {
   height: 28em;
@@ -469,13 +463,12 @@ This is a shorthand for the flex-direction and flex-wrap properties, which toget
   padding: 0.5em;
   box-sizing: border-box;
 
-/*FLEX-BASIS: This defines the default size of an element before the remaining space is distributed.
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+/* FLEX-BASIS: This defines the default size of an element before the remaining space is distributed.
+Bron: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
-/*FLEX: AUTO: The auto keyword means "look at my width or height property" (which was temporarily done by the main-size keyword until deprecated).
+/* FLEX: AUTO: The auto keyword means "look at my width or height property" (which was temporarily done by the main-size keyword until deprecated).
 20% van mijn height*/
 }
-
 
 .wrapping-link {
   position: absolute;
@@ -484,12 +477,8 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
   bottom: 0;
   right: 0;
   z-index: 2;
-/*WRAPPING-LINK: Makes the full item clickable*/
-
-
+/* WRAPPING-LINK: Makes the full item clickable */
 }
-
-
 
 .grid-item-wrapper {
   box-sizing: initial;
@@ -533,8 +522,6 @@ TRANSITIONS: allows you to change property values smoothly, over a given duratio
   top: -4.5%;
 }
 
-
-
 /* MY COOL IMAGES */
 .Gebakken-lucht-img {
   background-image: url('cloud2.jpg');
@@ -552,14 +539,10 @@ TRANSITIONS: allows you to change property values smoothly, over a given duratio
       background-image: url('stare.jpg');
 }
 
-
-
 /* flexbox: https://codepen.io/fullstackdigital/pen/MBzKXj*/
 .grid-item-content {
   padding: 0px 20px 25px 20px;
 }
-
-
 
  .story-title{
   font-family: 'Raleway', sans-serif;
@@ -601,7 +584,7 @@ TRANSITIONS: allows you to change property values smoothly, over a given duratio
 
 /* When POSITION ABSOLUTE is used on an element, it is positioned absolutely with reference to the closest parent that has a position relative value.
 An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
-https://www.w3schools.com/css/css_positioning.asp*/
+Bron: https://www.w3schools.com/css/css_positioning.asp */
 .more-info {
  font-family: sans-serif;
   position: absolute;
@@ -616,11 +599,6 @@ https://www.w3schools.com/css/css_positioning.asp*/
   text-decoration: underline;
   transition-duration: .5s;
 }
-/*
-.more-info i::before {
-  font-size: 50em;
-}
-*/
 
 .grid-item:hover .grid-item-wrapper {
   padding: 2% 2%;
@@ -629,18 +607,7 @@ https://www.w3schools.com/css/css_positioning.asp*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* 2nd Section featured stories_____________________________________ */
+/*------------------------------------2nd Section: Cards with Featured stories------------------------------------*/
 .section2 {
   width: 100%;
   padding-left: 8em;
@@ -683,17 +650,10 @@ https://www.w3schools.com/css/css_positioning.asp*/
 
 }
 
-
-/*Verwijder de "i" en de tekst artikel "bekijken" gaat bewegen */
 .grid2-item:hover .featured-story-excerpt-more-info  {
   padding-left: 10px;
   transition-duration: .5s;
 }
-/*
-.more-info i::before {
-  font-size: 50em;
-}
-*/
 
 .grid2-item:hover .grid2-item-wrapper {
   padding: 2% 2%;
@@ -710,12 +670,12 @@ https://www.w3schools.com/css/css_positioning.asp*/
 
 
 /* INLINE FLEX: enige manier waarop in de op een lijn kreeg
- icon inline weten te krijgen m.b.v. Bron: https://codepen.io/johnasp/pen/bqadn?editors=1100*/
+ icon inline weten te krijgen m.b.v. Bron: https://codepen.io/johnasp/pen/bqadn?editors=1100 */
 .aanbevolen_icon {
-  padding: 4px 0px;
-  margin-right: 20px;
-  color: #ff3268;
-  display: inline-block;
+   padding: 4px 0px;
+   margin-right: 20px;
+   color: #ff3268;
+   display: inline-block;
 }
 
 .aanbevolen-item {
@@ -753,7 +713,6 @@ https://www.w3schools.com/css/css_positioning.asp*/
   display: block;
   font-size: 0.8em;
   color: #525252;
-
 }
 
 .featured-story-more-info {
@@ -785,8 +744,7 @@ https://www.w3schools.com/css/css_positioning.asp*/
 }
 
 
-
-/* MY COOL IMAGES */
+/*------------------------------------MY COOL IMAGES------------------------------------*/
 .storm-img {
   background-image: url('../img/globe.jpg');
 }
@@ -795,19 +753,9 @@ https://www.w3schools.com/css/css_positioning.asp*/
   background-image: url('../img/two.jpg');
 }
 
-/* MEDIA QUERY Aanbevolen verhalen 500px */
-@media all and (max-width: 1295px) {
-
-.grid-image-side {
-    display: none;
-}
-}
-
-/* ----------------------------------------------------- */
 
 
-
-/* MEDIA QUERY Aanbevolen verhalen 500px */
+/*------------------------------MEDIA QUERY Aanbevolen verhalen 500px------------------------------*/
 @media all and (min-width: 500px) {
      .section2 {
     padding-left: 3em;
@@ -821,14 +769,24 @@ https://www.w3schools.com/css/css_positioning.asp*/
 
 
 }
-/* ----------------------------------------------------- */
+/* ------------------------------End MEDIA QUERY Aanbevolen verhalen----------------------------------- */
+
+
+
+/*------------------------------MEDIA QUERY Aanbevolen verhalen 1295px-----------------------------*/
+@media all and (max-width: 1295px) {
+
+.grid-image-side {
+    display: none;
+}
+}
+
+/*-------------------------------End MEDIA QUERY Aanbevolen verhalen-----------------------------*/
 
 
 
 
-
-
-/* 3d Section Quote_________________________________________________ */
+/*--------------------------------------3d Section: A Quote------------------------------------*/
 .section3 {
   width: 100%;
   padding-left: 3em;
@@ -865,12 +823,12 @@ font-family: 'Lobster', cursive;
   font-weight: 900;
     padding-top: 1em;
 }
+/*--------------------------------------End: 3d Section------------------------------------*/
 
 
 
 
-
-/* 4th Section Story of the month__________________________________________ */
+/*----------------------------4th Section: Story of the month------------------------------*/
 .section4-short-stories {
   display: flex;
   width: 100%;
@@ -946,9 +904,10 @@ font-family: 'Lobster', cursive;
  font-weight: bold;
  transition: 1s ease;
 }
+/*--------------------------------------End: 4th Section------------------------------------*/
 
 
-/* MEDIA QUERY Mobile-1 500px------------------------------- */
+/*-----------------------------MEDIA QUERY Boxes Mobile-1 500px-------------------------------*/
 @media all and (min-width: 500px) {
 
 .section4-short-stories {
@@ -993,24 +952,21 @@ font-family: 'Lobster', cursive;
     font-weight: 700;
 }
 }
-/* ----------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
 
 
 
-/* MEDIA QUERY Tablet-1 910px---------------------------*/
+/*-----------------------------MEDIA QUERY TEXT BOX Tablet-1 910px----------------------------------*/
 @media all and (min-width:  910px) {
 
 .learning-experience {
   padding: 1em 8em 3em 8em;
 }
     }
-/* ----------------------------------------------------- */
+/*----------------------------------------------------------------------------------------------*/
 
 
-
-/* ----------------------------------------------------- */
-
-/* MEDIA QUERY TEXT BOX 1145px----------------------------*/
+/*-----------------------------MEDIA QUERY TEXT BOX Laptop-1 1145px----------------------------*/
 @media all and (min-width:  1145px) {
 
 .learning-experience {
@@ -1018,9 +974,9 @@ font-family: 'Lobster', cursive;
 }
 
 }
-/* ----------------------------------------------------- */
+/*---------------------------------------------------------------------------------------------*/
 
-/* MEDIA QUERY TEXT BOX 1280px----------------------------- */
+/*-----------------------------MEDIA QUERY TEXT BOX Laptop-2 1280px-----------------------------*/
 @media all and (min-width:  1425px) {
 
 .learning-experience {
@@ -1028,18 +984,14 @@ font-family: 'Lobster', cursive;
 }
 
 }
+/*----------------------------------------------------------------------------------------------------*/
 
-/* ----------------------------------------------------- */
-
-
-
-
-/*--End Home/Overzichts/index pagina ________________________________________*/
+/*------------------------------End Home/Overzichts/index pagina-----------------------------*/
 
 
 
 
-/* Verhaal pagina ________________________________________________________*/
+/*-----------------------------Verhaal/Detail pagina-----------------------------*/
 .titel-bg {
   width: 100%;
   display: table;
@@ -1090,7 +1042,7 @@ article > .alinea3 {
 }
 
 
-/* MEDIA QUERY Mobile 500px */
+/*-----------------------------MEDIA QUERY Mobile-1 500px-----------------------------*/
 @media all and (min-width: 500px) {
 
 .titel-bg-h2 {
@@ -1127,11 +1079,10 @@ article > .alinea3 {
 }
 
   }
+/*----------------------------------------------------------------------------------------------*/
 
-/* -------------------------------------- */
 
-
-/* MEDIA QUERY Mobiel-2 525px */
+/*-------------------------------------MEDIA QUERY Mobiel-2 525px-------------------------------------*/
 @media all and (min-width: 525px) {
 
 .titel-bg-h2 {
@@ -1140,26 +1091,24 @@ article > .alinea3 {
 }
 
 }
-/* -------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------ */
 
 
 
-/* MEDIA QUERY Tablet-1 630px */
+/*---------------------------------MEDIA QUERY Tablet-1 630px-----------------------------------*/
 @media all and (min-width: 630px) {
 
 .alinea1 {
   line-height: 1.5em;
   text-align: justify;
   padding: 1em 2em 1em 4em;
-
 }
 
 article > .alinea2 {
    line-height: 1.5em;
    text-align: justify;
    padding: 1em 2em 1em 2em;
-
-    }
+}
 
 article > .alinea3 {
     text-align: justify;
@@ -1168,7 +1117,7 @@ article > .alinea3 {
 }
 
 }
-/* -------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
 
 
 /* MEDIA QUERY Laptop-1 1010px */
@@ -1206,10 +1155,10 @@ article > .alinea3 {
     padding: 1em 2em 1em 2em;
     }
 }
-/* -------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------ */
 
 
-/* MEDIA QUERY Laptop-2 1425px */
+/*-----------------------------------MEDIA QUERY Laptop-2 1425px--------------------------------------*/
 @media all and (min-width: 1425px) {
 
 .titel-bg-h2 {
@@ -1244,7 +1193,7 @@ article > .alinea3 {
     }
 
 }
-/* -------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
 
 
 .vorm {
@@ -1333,7 +1282,7 @@ h4:hover  {
     transition: 9s ease;
 }
 
-/* Grow Text move */
+/*-----------------------------Grow Text move-----------------------------*/
 .grow {
     padding-left: 1em;
     padding-right: 1em;
@@ -1352,7 +1301,6 @@ h4:hover  {
      color: white;
      transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
-
 /* Bron text effect = https://codepen.io/oliviale/pen/YgzNzK */
 
 .alinea3 {
@@ -1367,11 +1315,11 @@ h4:hover  {
     transition: 5s ease;
     transition-delay: 3s;
 }
-/*--Einde verhaal detal pagina css------------------------------------*/
+/*------------------------------Einde Verhaal/Detail pagina------------------------------------*/
 
 
 
-/*--Footer/form-----------------------------------------------------------
+/*---------------------------------------Footer/form-------------------------------------
 
     CSS Validator issue found: Too many font-size declarations (12), abstraction needed.
 
@@ -1510,7 +1458,7 @@ label{
    background-color: #00d66c;
    font-weight: 700;
     color: white;
-/*Bron = https://www.youtube.com/watch?v=jWCXc32OIUY
+/* Bron = https://www.youtube.com/watch?v=jWCXc32OIUY
     Veranderd de styles als je klikt op een input veld*/
 }
 
@@ -1518,7 +1466,7 @@ label{
    background-color: red;
    font-weight: 700;
     color: white;
-/*Bron = https://www.youtube.com/watch?v=jWCXc32OIUY
+/* Bron = https://www.youtube.com/watch?v=jWCXc32OIUY
     Veranderd de styles als je klikt op een input veld*/
 }
 
@@ -1561,18 +1509,18 @@ label{
     background-color: #00d66c;
 }
 
-/* MEDIA QUERY Tablet 1 footer textboxen vergroten 500px */
+/*----------------------MEDIA QUERY Tablet-1 footer text boxes 500px----------------------*/
 @media all and (min-width:  500px) {
 
     #registreren-btn{
     width: 99.8%;
 }
+    
 }
+/* ----------------------------------------------------------------------------------- */
 
-/* ----------------------------------------------------- */
 
-
-/* MEDIA QUERY Tablet 1 footer textboxen  790px */
+/*----------------------MEDIA QUERY Tablet-2 footer text boxes 790px----------------------*/
 @media all and (min-width:  790px) {
 
 footer{
@@ -1583,11 +1531,11 @@ footer{
 }
 }
 
-/* ----------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
 
 
 
-/* MEDIA QUERY Tablet 2 footer textboxen  945px */
+/*----------------------MEDIA QUERY Tablet-3 footer text boxes 945px----------------------*/
 @media all and (min-width:  945px) {
 
 footer{
@@ -1598,11 +1546,11 @@ footer{
 }
 }
 
-/* ----------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
 
 
 
-/* MEDIA QUERY Desktop footer textboxen vergroten 1425px */
+/*----------------------MEDIA QUERY Desktop footer text boxes 1425px----------------------*/
 @media all and (min-width:  1425px) {
 
 footer{
@@ -1642,7 +1590,7 @@ footer{
 }
 }
 
-/*--End Footer/form----------------------------------------------------- */
+/*---------------------------------------------End Footer/form--------------------------------------------- */
 
 
 
