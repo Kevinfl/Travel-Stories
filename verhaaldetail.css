@@ -222,6 +222,7 @@ button:active{
     }
 
 /* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
+/* Bron: https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend */
 .block .item {
     display: block;
 /* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
