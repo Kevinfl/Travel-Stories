@@ -179,6 +179,15 @@ button:active{
     display: block;
 /* JS: Active class voor Javascript, openklappen/verschijnen bij klikken */
 }
+    
+.section1 {
+   padding: 3em 0.5em;
+/* BACKGROUND TIPS: https://www.webfx.com/blog/web-design/responsive-background-image/ */
+}
+
+.grid-item {
+   width: 20em;
+}
 /*------------------------------------End Media querie Samsung S10 Menu 400px___________________________________*/
 }
 
