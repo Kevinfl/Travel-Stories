@@ -1078,11 +1078,16 @@ font-family: 'Lobster', cursive;
 }
 /*---------------------------------------------------------------------------------------------*/
 
-/*-----------------------------MEDIA QUERY TEXT BOX Laptop-2 1280px-----------------------------*/
+/*-----------------------------MEDIA QUERY TEXT BOX Laptop-2 1425px-----------------------------*/
 @media all and (min-width:  1425px) {
 
 .learning-experience {
   padding: 1em 20em 3em 4em;
+  background-image: url('img/pic.jpg');
+  background-position: center;
+  background-attachment: local;
+  background-size: cover;
+  height: 90vh;
 }
 
 }
