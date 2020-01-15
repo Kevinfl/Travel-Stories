@@ -1056,23 +1056,25 @@ font-family: 'Lobster', cursive;
 
 
 
-/*-----------------------------MEDIA QUERY TEXT BOX Tablet-1 910px----------------------------------*/
-@media all and (min-width:  910px) {
+/* MEDIA QUERY TEXT BOX 840px----------------------------*/
+@media all and (min-width:  840px) {
 
-.learning-experience {
-  padding: 1em 8em 3em 8em;
+.grid-s4-item-wrapper {
+  width: 70%;
+  height: 100%;
+
 }
-    }
-/*----------------------------------------------------------------------------------------------*/
+}
+/* ----------------------------------------------------- */
 
 
 /*-----------------------------MEDIA QUERY TEXT BOX Laptop-1 1145px----------------------------*/
 @media all and (min-width:  1145px) {
 
-.learning-experience {
-  padding: 1em 15em 3em 15em;
+.grid-s4-item-wrapper {
+  width: 60%;
+  height: 70%;
 }
-
 }
 /*---------------------------------------------------------------------------------------------*/
 
@@ -1080,7 +1082,7 @@ font-family: 'Lobster', cursive;
 @media all and (min-width:  1425px) {
 
 .learning-experience {
-  padding: 1em 40em 3em 4em;
+  padding: 1em 20em 3em 4em;
 }
 
 }
