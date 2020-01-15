@@ -1483,6 +1483,7 @@ Voorbeeld:
 } */
 
 footer{
+    display: table;
     width: 100%;
     background-color: #2800a0;
     padding: 6em 2em 3em 2em;
