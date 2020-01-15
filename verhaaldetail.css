@@ -904,7 +904,7 @@ font-family: 'Lobster', cursive;
 
 /*----------------------------4th Section: Story of the month------------------------------*/
 .section4-short-stories {
-  display: flex;
+  display: table;
   width: 100%;
   background-position: center;
   background-attachment: local;
@@ -919,7 +919,6 @@ font-family: 'Lobster', cursive;
   background-position: center;
   background-attachment: local;
   background-size: cover;
-  height: 90vh;
 }
 
  .learning-experience > header > h1 {
@@ -1057,7 +1056,6 @@ font-family: 'Lobster', cursive;
 .grid-s4-item-wrapper {
   width: 70%;
   height: 100%;
-
 }
 }
 /* ----------------------------------------------------- */
