@@ -1140,7 +1140,7 @@ article > .alinea3 {
 @media all and (min-width: 400px) {
 
 .titel-bg-h2 {
- /*padding: 3em;*/
+ padding: 3em;
  font-size: 3em;
 }
 
