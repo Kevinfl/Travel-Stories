@@ -1428,14 +1428,12 @@ h4:hover  {
 
 /*-----------------------------Grow Text move-----------------------------*/
 .grow {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-top: 1em;
     text-align: center;
     letter-spacing: 2em;
 }
 
 .grow-h2 {
-    display: inline-block;
     cursor: nesw-resize;
     }
 
