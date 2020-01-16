@@ -1158,13 +1158,13 @@ article > .alinea3 {
 .detail-article .alinea1 {
   line-height: 1.5em;
   text-align: justify;
-  padding: 1em 2em 1em 2em;
+  /* padding: 1em 2em 1em 2em; */
   font-size: 1em;
 }
 article > .alinea2 {
    line-height: 1.5em;
    text-align: justify;
-   padding: 1em 2em 1em 2em;
+  /* padding: 1em 2em 1em 2em; */
    font-size: 1em;
 
     }
@@ -1172,7 +1172,7 @@ article > .alinea2 {
 article > .alinea3 {
     text-align: justify;
     line-height: 1.5em;
-    padding: 1em 2em 1em 2em;
+    /* padding: 1em 2em 1em 2em; */
     font-size: 1em;
     }
 
