@@ -1135,6 +1135,10 @@ article > .alinea3 {
   cursor: zoom-in;
 }
 
+ p:nth-of-type(2) {
+  background: black;
+	 border-radius: 10%;
+}
 
 /*---------------------Media querie Mobile Samsung S10 Menu 400px----------------------------*/
 @media all and (min-width: 400px) {
